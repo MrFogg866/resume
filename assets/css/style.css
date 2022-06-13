@@ -5,9 +5,16 @@
 .bg-color-name-title {
     background-color: #060606;
 }
+.container-fluid {
+    color: #fcf7f7;
+}
 
 .bg-color-three-reasons {
-    background-color: rgb(229, 219, 204);
+    background-color: rgb(44, 43, 43);
+}
+
+.bg-color-personal-info {
+    background-color: rgb(44, 43, 43);
 }
 
 .ui-menu-color-home {
@@ -232,7 +239,7 @@ footer {
 
 .three-reasons-icon {
     font-size: 26px;
-    color: #e84610;
+    color: #f76409;
 }
 
 .three-reasons-heading {
