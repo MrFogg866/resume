@@ -3,23 +3,44 @@
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
-    background-color: #051e55;
+    background-color: #060606;
+}
+
+.bg-color-three-reasons {
+    background-color: rgb(229, 219, 204);
 }
 
 .ui-menu-color-home {
-    background-color: #5a1165;
+    background-color: #f76409;
 }
 
 .ui-menu-color-resume {
-    background-color: #1a9ba1;
+    background-color: #f76409;
 }
 
 .ui-menu-color-contact {
-    background-color: #5a1165;
+    background-color: #f76409;
 }
 
 .ui-menu-color-download {
-    background-color: #1a9ba1;
+    background-color: #f76409;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /* ----------------------------------------Special paddings/margins/text */
@@ -43,6 +64,23 @@ h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /*--------------------------------------------Heading*/
@@ -141,7 +179,7 @@ header {
 /* ----------------------------------------Footer */
 
 footer {
-    background-color: #525252;
+    background-color: #020203;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
@@ -174,8 +212,8 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
+    color: #faf4f4;
+    background: #f76409;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -188,4 +226,15 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/* ----------------------------------------Three Reasons */
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e84610;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
